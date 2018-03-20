@@ -1,24 +1,37 @@
 {
   "name": "angular-app",
   "version": "1.0.0",
-  "description": "learn angular",
-  "main": "hello.js",
+  "description": "my first angular webpack app",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "webpacktest",
+    "build": "webpack",
+    "start": "webpack --watch"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/oliynykroman/angular-app.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "test",
+    "webpack",
+    "angular"
+  ],
+  "author": "Oliynyk Roman",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/oliynykroman/angular-app/issues"
   },
   "homepage": "https://github.com/oliynykroman/angular-app#readme",
-  "dependencies": {
-    "webpack": "^4.1.1"
-  },
-  "devDependencies": {}
+  "devDependencies": {
+    "css-loader": "^0.28.11",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "file-loader": "^1.1.11",
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.7",
+    "style-loader": "^0.20.3",
+    "url-loader": "^1.0.1",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.12"
+  }
 }
