@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="acc0c348-1e43-4133-9d59-5ec04b3c59ae" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/_scss-vars/animate.scss" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change beforePath="$PROJECT_DIR$/src/_scss-vars/columns.scss" afterPath="$PROJECT_DIR$/src/_scss-vars/columns.scss" />
-      <change beforePath="$PROJECT_DIR$/src/_scss-vars/vars.scss" afterPath="$PROJECT_DIR$/src/_scss-vars/_vars.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/_scss-vars/_box.scss" />
+      <change beforePath="$PROJECT_DIR$/src/_scss-vars/animate.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/_scss-vars/animate.scss" afterPath="$PROJECT_DIR$/src/_scss-vars/_animate.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,16 +30,6 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/package.json">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="102">
-                  <caret line="6" column="26" lean-forward="false" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/webpack.config.js">
               <provider selected="true" editor-type-id="text-editor">
@@ -62,11 +50,21 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="animate.scss" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/_scss-vars/animate.scss">
+          <file leaf-file-name="_animate.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/_scss-vars/_animate.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="170">
-                  <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+                  <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_box.scss" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/_scss-vars/_box.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="362">
+                  <caret line="143" column="1" lean-forward="false" selection-start-line="143" selection-start-column="1" selection-end-line="143" selection-end-column="1" />
                   <folding />
                 </state>
               </provider>
@@ -200,6 +198,7 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/src/_scss-vars/columns.scss" />
         <option value="$PROJECT_DIR$/src/_scss-vars/animate.scss" />
+        <option value="$PROJECT_DIR$/src/_scss-vars/_box.scss" />
       </list>
     </option>
   </component>
@@ -212,7 +211,7 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-452" />
     <option name="y" value="-14" />
     <option name="width" value="1382" />
@@ -325,15 +324,15 @@
       <workItem from="1521577905613" duration="3480000" />
       <workItem from="1521663117697" duration="592000" />
       <workItem from="1521728371247" duration="10318000" />
-      <workItem from="1521742581028" duration="6427000" />
+      <workItem from="1521742581028" duration="6683000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23910000" />
+    <option name="totallyTimeSpent" value="24166000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="752" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="752" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14136904" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -690,10 +689,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/_scss-vars/animate.scss">
+    <entry file="file://$PROJECT_DIR$/src/_scss-vars/_animate.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_scss-vars/_box.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="143" column="1" lean-forward="false" selection-start-line="143" selection-start-column="1" selection-end-line="143" selection-end-column="1" />
           <folding />
         </state>
       </provider>
