@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="acc0c348-1e43-4133-9d59-5ec04b3c59ae" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/_scss-vars/_box.scss" />
-      <change beforePath="$PROJECT_DIR$/src/_scss-vars/animate.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/_scss-vars/animate.scss" afterPath="$PROJECT_DIR$/src/_scss-vars/_animate.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/_scss-vars/_transform.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -60,11 +58,21 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="_box.scss" pinned="false" current-in-tab="true">
+          <file leaf-file-name="_box.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/_scss-vars/_box.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="362">
                   <caret line="143" column="1" lean-forward="false" selection-start-line="143" selection-start-column="1" selection-end-line="143" selection-end-column="1" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_transform.scss" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/_scss-vars/_transform.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="102">
+                  <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
                   <folding />
                 </state>
               </provider>
@@ -86,16 +94,6 @@
                     <element signature="e#762#794#0" expanded="false" />
                     <marker date="1521750665288" expanded="true" signature="0:796" ph="..." />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="09-scss.scss" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/scss/09-scss.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
                 </state>
               </provider>
             </entry>
@@ -173,9 +171,11 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>@</find>
+      <find>$mixin</find>
     </findStrings>
     <replaceStrings>
       <replace>$</replace>
+      <replace>@mixin</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -199,6 +199,7 @@
         <option value="$PROJECT_DIR$/src/_scss-vars/columns.scss" />
         <option value="$PROJECT_DIR$/src/_scss-vars/animate.scss" />
         <option value="$PROJECT_DIR$/src/_scss-vars/_box.scss" />
+        <option value="$PROJECT_DIR$/src/_scss-vars/_transform.scss" />
       </list>
     </option>
   </component>
@@ -324,12 +325,12 @@
       <workItem from="1521577905613" duration="3480000" />
       <workItem from="1521663117697" duration="592000" />
       <workItem from="1521728371247" duration="10318000" />
-      <workItem from="1521742581028" duration="6683000" />
+      <workItem from="1521742581028" duration="6812000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24166000" />
+    <option name="totallyTimeSpent" value="24295000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="752" extended-state="6" />
@@ -701,6 +702,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="362">
           <caret line="143" column="1" lean-forward="false" selection-start-line="143" selection-start-column="1" selection-end-line="143" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_scss-vars/_transform.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
           <folding />
         </state>
       </provider>
